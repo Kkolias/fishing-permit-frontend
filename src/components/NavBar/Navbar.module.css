@@ -1,0 +1,24 @@
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6rem;
+    min-height: 100vh;
+  }
+
+.wrapper {
+    width: 100%;
+    height: 50px;
+    background: #240602;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.wrapper a {
+    font-size: 30px;
+    line-height: 50px;
+    color: white;
+}
